@@ -19,7 +19,7 @@ Route::group(['prefix'=>'admin'],function(){
 		return 'asdasdasddddd';
 	}]);
 	Route::get('say',['as'=>'hello',function () {
-    return 'Hello<a href="{{route('gadmin')}}">asddwf</a>';
+    return 'Hello';
 	}]);
 });
 
